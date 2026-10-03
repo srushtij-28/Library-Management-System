@@ -1,0 +1,35 @@
+📌 Features
+- Add books
+- View books
+- Search books
+- Delete books
+- Add members
+- View members
+- Issue books
+- Return books
+- Track issued books
+- Prevent issuing unavailable books
+- Track due dates
+- Calculate overdue days
+- Library statistics
+- JSON data storage
+- Modular architecture
+
+📁 Folder Structure
+library-management-system/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── book_manager.py
+├── member_manager.py
+├── transaction_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── books.json
+│   ├── members.json
+│   └── transactions.json
+│
+└── README.md
